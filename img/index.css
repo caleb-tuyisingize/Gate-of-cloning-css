@@ -556,3 +556,30 @@ margin-top: -29%;
         margin-left: 22%;
         color: #c6cdd8;
     }
+    .motion{
+        display: grid;
+        margin-left: 3%;
+        font-size: 19px;
+        color: rgb(10, 10, 37);
+        margin-right: 3%;
+        grid-template-columns: 12fr 12fr;
+    }
+    .dates{
+        display: flex;
+        gap: 70px;
+        margin-top: 30px;
+    }
+    .assign{
+        
+        padding: 12px;
+        width: 80%;
+    }
+    .motion i{
+        color: rgb(179, 161, 59);
+    }
+    .assign:hover{
+        background-color: aliceblue;
+        transform: scale(1.01);
+        transition: 0.6s;
+        border-bottom: 3px solid rgb(118, 164, 194);
+    }
