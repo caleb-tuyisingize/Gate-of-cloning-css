@@ -337,12 +337,70 @@ margin-top: -29%;
     position: absolute;
     width:80%;
 }
-.atwork,h4,.research,p{
+.atwork,h4,.researcho{
     color: rgb(3, 3, 94);
+    margin-left: 12px;
 }
 .atwork{
     display: flex;
+    justify-content: space-between;
 }
-.atwork .text{
-    
+.atwork .texts{
+ width: 60%; 
+ padding-left: 30px;  
+}
+
+
+
+
+.skipo{
+    background:none;
+    border: none;
+    font-size: 20px;
+    color:rgb(3, 3, 94);
+    gap: 5px;
+    padding: 12px;
+    /* margin-left: 60%; */
+    width:200px;
+    margin-left: -12px;
+    /* max-width:300px; */
+    height: 48px;
+    border-radius: 8px;
+    display: flex;
+}
+.skipo:hover{
+    /* width: 200px; */
+    transform: scale(1.02);
+    background-color: rgb(118, 164, 194);
+    gap: 12px;
+    /* font-size: 12.3px; */
+    /* transition: 0.1s; */
+    /* padding: 3px; */
+
+    transition: 1s;
+   
+}
+.skipo .gapping{
+    font-size: 20px;
+}
+
+.atwork-div{
+    display: flex;
+}
+.worker-texts{
+    background-color: aliceblue;
+    padding-top: 50px;
+    padding-left: 450px;
+    padding-right: 90px;
+    /* text-align: left; */
+    height: 360px;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 2%;
+}
+.worker{
+    margin-top: 12px;
+    margin-left: 3%;
+    height: 460px;
+    position: absolute;
 }
