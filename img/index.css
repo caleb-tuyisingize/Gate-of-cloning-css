@@ -534,3 +534,13 @@ margin-top: -29%;
         font-size:29px;
         background:none;
     }
+    .notre{
+        display: flex;
+    }
+    .notre img{
+        width: 50%;
+    }
+    .notre .blue-part{
+        background-color: rgb(3, 3, 94);
+        width: 50%;
+    }
