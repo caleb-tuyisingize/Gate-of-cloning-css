@@ -404,3 +404,56 @@ margin-top: -29%;
     height: 460px;
     position: absolute;
 }
+
+
+
+
+ .table-contents2  .tbl-title,.research,p{
+    color: #fff;
+    margin-left: 30px;
+    /* width: 70%; */
+    
+}
+.table-contents2 button{
+    background:none;
+    border: none;
+    font-size: 20px;
+    color:#fff;
+    gap: 5px;
+    padding: 12px;
+    margin-left: 60%;
+    min-width:240px;
+    /* max-width:300px; */
+    height: 48px;
+    border-radius: 8px;
+    display: flex;
+}
+.table-contents2 button:hover{
+    /* width: 200px; */
+    transform: scale(1.02);
+    background-color: rgb(4, 75, 122);
+    gap: 12px;
+    /* font-size: 12.3px; */
+    /* transition: 0.1s; */
+    /* padding: 3px; */
+
+    transition: 1s;
+   
+}
+.right{
+    display: flex;
+    width: 800px;
+    height: 180px;
+}
+.right .text-in{
+    padding:20px;
+    padding-right: 30px;
+    font-size: 22px;
+    width: 300px;
+    color: rgb(10, 10, 37);
+    font-weight: 400;
+    font-family: 'Times New Roman', Times, serif
+}
+.right h4{
+    font-weight: -100;
+}
