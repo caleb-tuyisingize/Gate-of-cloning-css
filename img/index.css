@@ -18,7 +18,7 @@ body{
 }
 .menu-field{
     
-    margin-left:50% ;
+    margin-left:48% ;
     border-right: 1px solid rgb(202, 192, 192);
     padding-right: 12px;
     padding-top: 4px;
@@ -34,9 +34,22 @@ gap: 32px;
     display: flex;
     list-style-type: none;
     padding-top: 4px;
+    color: #c6cdd8;
+    font-weight: 12;
     padding-left:12px ;
     gap: 32px;
     /* margin-left:2% ; */
+}
+.nav-top ul li{
+padding-top: 4px;
+padding-bottom: 8px;
+padding-right: 5px;
+padding-left: 5px;
+height: 12px;
+}
+.nav-top ul li:hover{
+background-color: rgb(4, 75, 122);
+border-radius: 7px;
 }
 .nav-top ul{
     color: white;
@@ -79,6 +92,7 @@ gap: 32px;
     color: #464c55;
     background-color:white;
     border: none;
+    /* position: absolute; */
     height: 43px;
     
 }
@@ -93,21 +107,23 @@ gap: 32px;
     background: url(./feature-bg-1600.jpeg);
     /* background-size: cover; */
     width: 100%;
-    margin-top: -87px;
-    position: absolute;
-    height: 290px;
+    margin-top: -42px;
+    /* position: absolute; */
+    height: 480px;
 }
 .home-bold img{
+    margin-top:3% ;
     position: absolute;
     width: 60%;
     margin-left: 36%;
-    height:311px ;
+    height:500px ;
 }
 .home-bold .img-fl{
+
     position:absolute;
     width: 59%;
-    margin-top: 0.4%;
+    margin-top: 3.4%;
     margin-left: 36.4%;
-    height:304px ;
+    height:487px ;
     border: 1px solid #edf2f9;
 }
