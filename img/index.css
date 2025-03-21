@@ -493,3 +493,44 @@ margin-top: -29%;
     transition: 0.5s;
 }
 
+.table-contents1-moss,img{
+    /* text-align: left; */
+    background-color: rgb(198, 219, 233);
+    /* transform: scale(1.01); */
+    /* border-bottom: 2px solid rgb(76, 120, 150); */
+    transition: 0.2s;
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size: 22px;
+    width: 400px;
+    /* zoom: 100%; */
+}
+.table-contents1-moss:hover{
+    background-color: rgb(198, 219, 233);
+    transform: scale(1.01);
+    border-bottom: 2px solid rgb(76, 120, 150);
+    
+    transition: 0.2s;
+    /* zoom: 100%; */
+}
+.atwork-divs table{
+    color: rgb(0, 19, 31);
+    width: 97%;
+    margin-left:20px;
+    margin-right:20px;
+}
+.table-contents1-moss,h3,h4{
+    margin-left: 12px;
+        color: rgb(0, 19, 31);
+        font-weight: 100;
+    }
+    .table-contents1-moss button{
+        border:none;
+        height:12px;
+        text-align:left;
+        margin-left:12px;
+        color: rgb(0, 19, 31);
+        font-size:29px;
+        background:none;
+    }
