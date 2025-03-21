@@ -296,3 +296,31 @@ transition: 0.2s;
     /* width: 70%; */
     
 }
+.table-contents2 button{
+    background:none;
+    border: none;
+    font-size: 20px;
+    color:#fff;
+    gap: 5px;
+    padding: 12px;
+    margin-left: 70%;
+    width:200px;
+    height: 48px;
+    border-radius: 8px;
+    display: flex;
+}
+.table-contents2 button:hover{
+    /* width: 200px; */
+    transform: scale(1.02);
+    background-color: rgb(4, 75, 122);
+    gap: 12px;
+    /* font-size: 12.3px; */
+    /* transition: 0.1s; */
+    /* padding: 3px; */
+
+    transition: 1s;
+   
+}
+.table-contents2 button .gapping{
+    font-size: 20px;
+}
