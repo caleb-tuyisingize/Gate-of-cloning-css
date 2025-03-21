@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    overflow-x: hidden;
+}
 .nav-top{
     padding: 12px;
     /* padding-bottom: 12px; */
@@ -90,6 +93,21 @@ gap: 32px;
     background: url(./feature-bg-1600.jpeg);
     /* background-size: cover; */
     width: 100%;
-    margin-left: 12px;
-    height: 600px;
+    margin-top: -87px;
+    position: absolute;
+    height: 290px;
+}
+.home-bold img{
+    position: absolute;
+    width: 60%;
+    margin-left: 36%;
+    height:311px ;
+}
+.home-bold .img-fl{
+    position:absolute;
+    width: 59%;
+    margin-top: 0.4%;
+    margin-left: 36.4%;
+    height:304px ;
+    border: 1px solid #edf2f9;
 }
