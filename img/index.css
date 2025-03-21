@@ -116,37 +116,49 @@ border-radius: 7px;
     margin-top:3% ;
     position: absolute;
     width: 58%;
-    /* margin-left: 36%; */
+    margin-left: 30%;
     height:500px ;
 }
 .home-bold .img-fl{
-
+    
     position:absolute;
     width: 57%;
+    margin-left: 30.3%;
     margin-top: 3.4%;
-    margin-left: 0.3%;
+    /* margin-left: 0.3%; */
     height:487px ;
     border: 1px solid #edf2f9;
 }
 .home-bold .left{
     padding: 40px;
-    width: 26%;
+    
     padding-right: 30px;
-    height: 300px;
-    margin-top: 4%;
-    margin-left: 3.2%;
-    border-bottom:2px solid gold;
+    height: 170px;
+    margin-top: 60px;
+    position: static;
+    margin-left: 5%;
+    border-bottom-width:12px ;
+    border-bottom:4px solid rgb(179, 161, 59);
 }
 .home-bold .left h4{
     color: rgb(0, 39, 65);
     font-weight: 400;
+    width: 26%;
+    position: absolute;
     /* font-size: 2px; */
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .home-bold .left h1{
+    position: absolute;
     font-weight: 400;
     /* font-size: 2px; */
+    width: 26%;
     color: rgb(0, 39, 65);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.home-bold button{
+    height: 30px;
+    width: 110px;
+    position: relative;
 }
