@@ -199,13 +199,29 @@ table tr{
 .Monalisa{
     width:80%;
 }
-.Monalisa tr td{
-    /* padding: 12px 42px; */
-    width: 150px;
+.Monalisa tr .table-contents1{
+    padding: 12px 12px;
+    margin-left: 80px;
+    /* width: 150px; */
+    zoom: 99%;
 }
-.Monalisa td:hover{
+.Monalisa .table-contents1:hover{
 background-color: rgb(198, 219, 233);
+transform: scale(0.1);
+/* zoom: 100%; */
 }
 .Monalisa td img{
-width: 300px;
+    /* zoom: 99%; */
+    width: 400px;
 }
+.Monalisa td img:hover{
+    
+}
+
+.Monalisa .table-contents1-mo:hover{
+    background-color: rgb(198, 219, 233);
+    transform: scale(1.1);
+    }
+    .monatd{
+        width: 400px;
+    }
