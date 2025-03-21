@@ -539,8 +539,20 @@ margin-top: -29%;
     }
     .notre img{
         width: 50%;
+        height: 600px;
     }
     .notre .blue-part{
+        height: 400px;
+        font-size: 33px;
+        color: #f5ecec;
+        padding: 60px;
+        font-weight: 300;
+        margin-top: 3%;
         background-color: rgb(3, 3, 94);
         width: 50%;
+    }
+    .notre .blue-part h4{
+        font-size: 20px;
+        margin-left: 22%;
+        color: #c6cdd8;
     }
