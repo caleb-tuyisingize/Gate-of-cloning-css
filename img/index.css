@@ -303,8 +303,9 @@ transition: 0.2s;
     color:#fff;
     gap: 5px;
     padding: 12px;
-    margin-left: 70%;
-    width:200px;
+    margin-left: 60%;
+    min-width:240px;
+    /* max-width:300px; */
     height: 48px;
     border-radius: 8px;
     display: flex;
@@ -323,4 +324,11 @@ transition: 0.2s;
 }
 .table-contents2 button .gapping{
     font-size: 20px;
+}
+.blue-section .right .img-fl{
+    border: 1px solid #fff;
+    position: absolute;
+    width: 690px;
+margin-top: -30%;
+    height: 390px;
 }
