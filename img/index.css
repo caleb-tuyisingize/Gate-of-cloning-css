@@ -193,3 +193,19 @@ height: 12px;
     padding-top: 2px;
     color: rgb(148, 138, 51);
 }
+table tr{
+    color: rgb(0, 39, 65);
+}
+.Monalisa{
+    width:80%;
+}
+.Monalisa tr td{
+    /* padding: 12px 42px; */
+    width: 150px;
+}
+.Monalisa td:hover{
+background-color: rgb(198, 219, 233);
+}
+.Monalisa td img{
+width: 300px;
+}
